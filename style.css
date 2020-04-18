@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.head h1 {
+    background-color: teal;
+    color: tomato;
+    margin: 0 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 10px; 
+    padding: 0 0 0 0;
+}
+
+.right {
+    width: 85%;
+    background-color: cadetblue;
+}
+
+.left {
+    width: 15%;
+}
+
+.list_snack {
+    width: 20%;
+    height: 30%;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+.sec-sec {
+    padding:0;
+    margin:0;
+}
+
+.snack {
+    text-align: center;
+    margin: 0 0 0.5em 0;
+}
+
+.cost {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 25px;
+    padding: 0 0 0 0;
+} 
+
+.coin {
+    background-color: darkgray;
+    width: 15%;
+    border-radius: 50%;
+    margin: 30px 0 0 5px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    width:50%;
+    margin: 40px 0 0 30px;
+}
+
+.insert-sign {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px 0 10px;
+    padding: 3px 3px 3px 3px; 
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    background-color: black;
+}
+
+.insert-coin {
+    width: 30%;
+}
+
+.down-arrow {
+    width: 15%;
+    height: 15%;
+    margin: 20px 0 0 10px;
+}
+
+.insert-sign p {
+    color: white;
+    width: 30%;
+    margin: 20px 0 0 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.third-sec {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 30px 0 10px;
+    padding: 3px 3px 3px 3px; 
+    border-style: solid;
+    border-radius: 15px 15px 15px 15px;
+    background-color: black;
+}
+
+.recieve {
+    width: 30%
+}
+
+.third-sec p {
+    color: white;
+    width: 30%;
+    margin: 20px 0 0 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
